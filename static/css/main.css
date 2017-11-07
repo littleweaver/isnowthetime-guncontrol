@@ -136,6 +136,15 @@ button:hover {
     color: #fff;
 }
 
+a, a:visited {
+    color: #000;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #777;
+}
+
 
 /* ==========================================================================
    Helper classes
