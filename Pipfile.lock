@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "5fd9a5c2936443cdb163ac26928e6a9b7a492d084eaef82a690503a1d56b9250"
+            "sha256": "bc89db76b696378c419ef683b3f86e06ff8f79a49dbd85ffe9903648334b1f29"
         },
         "requires": {},
         "sources": [
@@ -12,6 +12,9 @@
         ]
     },
     "default": {
+        "babel": {
+            "version": "==2.5.1"
+        },
         "click": {
             "version": "==6.7"
         },
@@ -26,6 +29,9 @@
         },
         "markupsafe": {
             "version": "==1.0"
+        },
+        "pytz": {
+            "version": "==2017.3"
         },
         "werkzeug": {
             "version": "==0.12.2"
