@@ -7,7 +7,6 @@ from pytz import timezone, utc
 
 app = Flask(__name__)
 app.config['SERVER_NAME'] = os.getenv('SERVER_NAME', None)
-app.config['PREFERRED_URL_SCHEME'] = 'https'
 
 los_angeles_tz = timezone('America/Los_Angeles')
 
