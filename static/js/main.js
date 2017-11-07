@@ -36,8 +36,10 @@ function displayLoading3() {
 
 function displayResult() {
 	var result = results[Math.floor(Math.random()*results.length)];
-	$('#result').removeClass('hidden')
+	$('#result').removeClass('hidden');
 	$('#resultInner').html(result);
+	var now = new Date();
+	$('#resultTimestamp').html(now.toString());
 }
 
 
