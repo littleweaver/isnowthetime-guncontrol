@@ -112,6 +112,10 @@ textarea {
     margin-top: 0;
 }
 
+.muted {
+    color: #aaa;
+}
+
 button {
     border-radius: 6px;
     background-color: #fff;
