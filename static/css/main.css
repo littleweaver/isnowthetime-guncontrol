@@ -115,6 +115,12 @@ h2 {
     position: relative;
 }
 
+@media(max-width: 400px) {
+    #jumbo {
+        font-size: 5em;
+    }
+}
+
 #jumbo-footer {
     padding-top: 0;
     padding-bottom: 0;
