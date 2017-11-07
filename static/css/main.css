@@ -112,23 +112,57 @@ h2 {
     color: #fff;
     background-color: #000;
     padding: 1em .1em;
+    position: relative;
 }
 
-@media(max-width: 500px) {
-    #jumbo {
-        padding: .5em .1em;
-    }
+#jumbo-footer {
+    width: 700px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -350px;
+    color: #fff;
+    font-size: 16px;
+    text-align: left;
 }
 
-#content {
+#jumbo-footer .button {
+    margin-left: 2em;
+}
+
+#post-jumbo-footer {
+    display: none;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.content {
     padding: 2em;
     width: 700px;
     margin-left: auto;
     margin-right: auto;
 }
 
+@media(max-width: 500px) {
+    #jumbo {
+        padding: .5em .1em;
+    }
+    #jumbo-footer {
+        display: none;
+    }
+    #post-jumbo-footer {
+        display: block;
+    }
+}
+
 @media(max-width: 700px) {
-    #content {
+    #jumbo-footer {
+        width: 100%;
+        margin-left: 0;
+        left: 0;
+        padding: 0 2em;
+    }
+    .content {
         width: auto;
     }
 }
@@ -178,6 +212,7 @@ a.button, a.button:visited {
     padding: 9px;
     transition: background-color .15s ease-in-out;
     text-decoration: none;
+    white-space: nowrap;
 }
 
 a.button:hover {
