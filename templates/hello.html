@@ -8,7 +8,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<link rel="stylesheet" href="static/css/normalize.css">
-		<link rel="stylesheet" href="static/css/main.css?version=1">
+		<link rel="stylesheet" href="static/css/main.css?version=2">
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 
 		<meta property="og:url" content="https://{{ SERVER_NAME }}/">
@@ -25,22 +25,17 @@
 
 		<div id="jumbo">
 			YES.
-
-			<p id="jumbo-footer">
-				Last checked {{ date }} at {{ time }}
-				<a class="button" href="/">What about now?</a>
-			</p>
 		</div>
 
-		<div class="content" id="post-jumbo-footer">
-			<p>Last checked {{ date }} at {{ time }}</p>
-			<p><a class="button" href="/">What about now?</a></p>
+		<div class="content clearfix" id="jumbo-footer">
+			<p class="pull-left m-r-2">Last checked {{ date }} at {{ time }}</p>
+			<a class="button" href="/">What about now?</a>
 		</div>
 
 		<div class="content">
 			<h2 class='m-b-half'>Read more</h2>
 
-			<ul class='m-t-half'>
+			<ul class='m-t-half m-b-2'>
 				<li>
 					<a href="http://inthesetimes.com/article/20566/america-wasnt-a-gun-loving-country-until-a-13.5-billion-industry-made-it-so">
 						America wasn't a &ldquo;Gun-Loving Country&rdquo; Until a $13.5 Billion Industry Made It So
@@ -68,7 +63,7 @@
 				</li>
 			</ul>
 
-			<p>Made with care by <a href="https://littleweaverweb.com">Little Weaver Web Collective</a></p>
+			<p class="muted">Made with care by <a href="https://littleweaverweb.com">Little Weaver Web Collective</a></p>
 		</div>
 
 		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
