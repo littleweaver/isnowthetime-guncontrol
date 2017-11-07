@@ -1,7 +1,7 @@
 import datetime
 
 from babel.dates import format_date, format_datetime
-from flask import Flask, render_template
+from flask import Flask, render_template, url_for
 from pytz import timezone, utc
 
 app = Flask(__name__)
@@ -16,4 +16,5 @@ def hello():
         'hello.html',
         date=format_date(timestamp.date(), 'L/d/YY'),
         time=format_datetime(timestamp, 'h:mm:ss a z'),
+        og_image_url=url_for('static', filename='images/preview.png'),
     )
