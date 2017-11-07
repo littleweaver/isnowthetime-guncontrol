@@ -6,7 +6,10 @@ var results = [
 	'Fuck yes',
 	'yes!!1!',
 	'Signs point to "yes"',
-
+	'Yep',
+	'Sure is',
+	'This is an excellent time',
+	'Affirmative',
 ];
 
 function displayLoading1() {
