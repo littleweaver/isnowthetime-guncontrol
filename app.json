@@ -1,0 +1,8 @@
+{
+  "name": "Is now the time to talk about gun control?",
+  "description": "A simple app that calculates whether now is the time to talk about gun control",
+  "image": "heroku/python",
+  "repository": "https://github.com/littleweaver/isnowthetime-guncontrol",
+  "keywords": ["python", "flask" ],
+  "addons": [],
+}
