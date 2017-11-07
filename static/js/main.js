@@ -1,5 +1,5 @@
-var loadingDelay1 = 0;
-var loadingDelay2 = 0;
+var loadingDelay1 = 1500;
+var loadingDelay2 = 500;
 var results = [
 	'Yes',
 	'Definitely',
